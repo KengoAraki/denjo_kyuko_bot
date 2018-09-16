@@ -4,7 +4,6 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     buftok (0.2.0)
-    chronic (0.10.2)
     connection_pool (2.2.2)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
@@ -59,8 +58,6 @@ GEM
       unf_ext
     unf_ext (0.0.7.5)
     webrobots (0.1.2)
-    whenever (0.10.0)
-      chronic (>= 0.6.3)
 
 PLATFORMS
   ruby
@@ -68,7 +65,6 @@ PLATFORMS
 DEPENDENCIES
   mechanize
   twitter
-  whenever
 
 BUNDLED WITH
    1.16.3
