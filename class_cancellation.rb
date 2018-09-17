@@ -25,11 +25,7 @@ def get_content(text)
 end
 
 def third_grade?(text)
-  if /3年/ === text then
-    return true
-  else
-    return false
-  end
+  return /3年/ === text
 end
 
 agent = Mechanize.new
